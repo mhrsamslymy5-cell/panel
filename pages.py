@@ -1923,7 +1923,7 @@ def get_public_page_html(uuid_key: str) -> str:
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<title>X4G Sub</title>
+<title>Aurevonfilter Sub</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
@@ -2111,8 +2111,8 @@ html,body{{min-height:100%;background:var(--bg);font-family:var(--serif);color:v
 <div class="wrap">
   <div class="top">
     <div class="brand">
-      <div class="brand-img"><img src="data:image/png;base64,{LOGO_B64}" alt="X4G"></div>
-      <div><div class="brand-name">X4G</div><div class="brand-sub">v9.8</div></div>
+      
+      <div><div class="brand-name">Aurevonfilter</div><div class="brand-sub">v9.8</div></div>
     </div>
     <div class="top-actions">
       <button class="icon-btn" id="theme-toggle" onclick="toggleTheme()" title="تغییر تم"><i class="ti ti-sun" id="theme-icon"></i></button>
