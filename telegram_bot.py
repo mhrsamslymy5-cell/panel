@@ -35,11 +35,11 @@ from main import (
     parse_speed_to_bytes,
 )
 
-BOT_TOKEN = os.environ.get("8661422654:AAGlK7DpixCxgdvVXWrZcieNqTn1QfPZ1GM", "").strip()
-_admin_ids_raw = os.environ.get("7364663521", "").strip()
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+_admin_ids_raw = os.environ.get("TELEGRAM_ADMIN_IDS", "").strip()
 ADMIN_IDS = {int(x) for x in _admin_ids_raw.replace(" ", "").split(",") if x.isdigit()} if _admin_ids_raw else set()
 
-API_BASE = f"https://api.telegram.org/bot{8661422654:AAGlK7DpixCxgdvVXWrZcieNqTn1QfPZ1GM}"
+API_BASE = f"https://api.telegram.org/bot{BOT_TOKEN}"
 PAGE_SIZE = 6
 
 _client: httpx.AsyncClient | None = None
