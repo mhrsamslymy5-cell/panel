@@ -61,7 +61,7 @@ input:focus+.ic{color:var(--accent)}
   <div class="card">
     <div class="brand"></div>
       <div><div class="brand-nam
-      <div class="brand-img">e">X4G</div><div class="brand-sub">v9.8</div></div>
+      <div class="brand-img">e">Aurevonfilter</div><div class="brand-sub">v9.8</div></div>
     </div>
     <h1>ورود به پنل</h1>
     <p class="sub">رمز عبور را برای دسترسی به داشبورد وارد کنید</p>
@@ -106,7 +106,7 @@ DASHBOARD_HTML = r"""<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>X4G</title>
+<title>Aurevonfilter</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
